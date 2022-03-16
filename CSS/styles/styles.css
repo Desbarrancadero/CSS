@@ -1,0 +1,509 @@
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 15%;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5); 
+
+  }
+.push {
+    margin-left: auto;
+    justify-content: space-evenly;
+}
+.banner-vaccination{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3269D9;
+    font-size: 30px;
+    font-weight: bold;
+}
+      
+.button-banner-desactivado{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #69788C;
+    padding: 15px 32px;
+    font-size: 20px;
+}
+.button-banner-activado{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #3269D9;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.div-box{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5% 15%;
+
+}
+.div-box > div {
+    width: 50%;
+  }
+
+.div-pagina1-img{
+    margin: 5% 5%;
+    margin-left: auto;
+    border-radius:5px;
+    min-height: 50%;
+    border: 1px solid #999;
+    padding:50px;
+    width: 40%;
+    height:70%;
+    background-repeat:no-repeat;
+    background-image:url(imagenes/Pagina1.jpg);
+    background-size: cover;
+    }
+.div-pagina1-img-contenedor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .Pagina1Titulo1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(49, 49, 73);
+        font-size: 70px;
+    }
+    
+    .Pagina1Titulo2{
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+        font-size: 25px;
+    }
+    
+    .Pagina1Contenedor{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .Pagina1ContenedorTitulo3{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: xx-large;
+    }
+    
+    .Pagina1Contenedor2Titulo3{
+        display: flex;
+        align-items: center;
+    }
+    
+    .DivBannerCita{
+        background-color: whitesmoke;
+        opacity: 0.5;
+        height: 300px;
+        width: 3000px;
+        border-radius: 20%;
+    }
+
+    .button-banner2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #152d5e;
+        padding: 15px 32px;
+        font-size: 20px;
+    }
+
+    .Pagina1Contenedor3Titulo3{
+        display: flex;
+        flex-direction: column;
+    }
+    .Pagina1Contenedor4Titulo3{
+        display: flex;
+        flex-direction: column;
+    }
+    .box2 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 5% 15%;
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.5); 
+        
+      }
+      .button-banner2-activado{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #3269D9;
+        display: flex;
+        align-items: center;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        border-radius: 15px;
+    }
+
+    .box3 {
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        opacity: 50%;
+      }
+
+
+      .box4 {
+        display: flex;
+        justify-content: flex-start;
+        align-content: left;
+        align-items: baseline;
+        margin: 10%;
+      }
+
+      .box4-titulo{
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 50px;
+          color: #152d5e;
+      }
+      .box4-parrafo{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        color:  #69788C;
+    }
+
+    .Pagina4Contenedor1Titulo1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Pagina4Texto1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #b3bac4;
+    }
+
+    .Pagina4Titulo1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #152d5e;
+        font-weight: bold;
+        font-size: x-large;
+    }
+
+    .Pagina4CajaIndividualActivada{
+        display: flex;
+        height: 300px;
+        width: 250px;
+        padding: 2%;
+        border-color: rgb(221, 221, 221);
+        border-radius: 5%;
+        border-style: solid;
+        background-color: rgba(255, 255, 255, 0.5); 
+        box-shadow: 12px 40px 20px rgb(226, 226, 226);
+    }
+    .Pagina4CajaIndividualDesactivada{
+        display: flex;
+        height: 300px;
+        width: 250px;
+        padding: 2%;
+        border-color: rgb(221, 221, 221);
+        border-radius: 5%;
+        border-style: solid;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+      .box5 {
+        display: flex;
+        justify-content: space-evenly;
+        align-content: left;
+        align-items: baseline;
+      }
+
+      .div-pagina5-img{
+
+        width: 50%;
+        height: auto;
+        background-repeat:no-repeat;
+        background-image: url(Imagenes/pagina5.png);
+        background-size: cover;
+        object-fit: cover;  
+        object-position: center; 
+        margin: 100px 0px 0px;
+    }
+
+
+        .box6 {
+            display: flex;
+            justify-content: flex-start;
+            height: 800px;
+            width: auto;
+          }
+
+        .div-box2{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 5% 15%;
+        
+        }
+        .div-box > div {
+            width: 50%;
+          }
+
+
+        .Pagina6Contenedor1{
+            height: 50px;
+            width: auto;
+            margin: 1%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            border-color: rgb(221, 221, 221);
+            border-radius: 5%;
+            border-style: solid;
+            background-color: rgba(255, 255, 255, 0.5); 
+        }
+        .hola{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-style: bold;
+            color: rgb(26, 26, 114);
+        }
+
+        .push2 {
+            margin-left: auto;
+            justify-content: space-between;
+        }
+        .Pagina6Contenedor2{
+            height: 50px;
+            width:  590px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        .Pagina6CajaIndividualDesactivada{
+            display: flex;
+            height: 300px;
+            width: 250px;
+            padding: 2%;
+            border-color: rgb(221, 221, 221);
+            border-radius: 5%;
+            border-style: solid;
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+    
+
+        .Pagina6Contenedor3{
+            height: auto;
+            width: auto;
+            margin: 5%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            border-color: rgb(221, 221, 221);
+            border-radius: 5%;
+            border-style: solid;
+            background-color: rgba(255, 255, 255, 0.5);
+
+            box-shadow: 12px 40px 20px rgb(226, 226, 226);
+        }
+
+        .pagina6Texto{
+            margin: 5%;
+            font-weight: bold;
+            font-size: large;
+            color: #4c5157;
+        }
+
+        .Pagina6lista{
+            display: flex;
+            flex-direction: column;
+            column-gap: 2000px;
+            height: 600px;
+        }
+
+
+        .box8 {
+            display: flex;
+            justify-content: space-around;
+            height: 800px;
+            width: auto;
+
+          }
+
+        .push-izquierda{
+            margin-left: auto;
+            justify-content: space-evenly;
+        }
+
+        .div-pagina8-img{
+
+            width: 50%;
+            height: auto;
+            background-repeat:no-repeat;
+            background-image: url(Imagenes/pagina8.png);
+            background-size: cover;
+            object-fit: cover;  
+            object-position: center; 
+            margin: 100px 0px 0px;
+        }
+
+
+    .pagina8titulo{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        color:rgb(21, 66, 117);
+    }
+
+    .pagina8texto{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color:black;
+    }
+    .pagina8recuadrochico{
+        display: flex;
+        align-items: center;
+        align-content: space-around;
+        gap: 20px;
+    }
+    .pagina8logorecuadro{
+        background-color: #000000;
+        opacity: 100%;
+        border-style: solid;
+    }
+
+    .boton2{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #a3ceff;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    .boton2-activado{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #3269D9;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    .pagina8recuadromedianolinea{
+        display:flex;
+        justify-content: space-evenly;
+      
+    }
+    .pagina8recuadromediano{       
+        display:flex;
+        justify-content: space-around;
+
+    }
+
+    .pagina8recuadromediano2{
+        height: auto;
+        width: auto;
+        padding: 2%;
+        border-color: rgb(221, 221, 221);
+        border-radius: 5%;
+        border-style: solid;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .pagina8recuadromediano2{
+        height: auto;
+        width: auto;
+        padding: 2%;
+        border-color: rgb(221, 221, 221);
+        border-radius: 5%;
+        border-style: solid;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .bannerabajo{
+        height: auto;
+        width: auto;
+        background-color: rgb(190, 228, 240);
+        margin: 3%;
+    }
+    .bannerabajocontenedor1{
+        display: flex;
+        flex-direction: column;
+        margin: 3%;
+    }
+
+    .bannerabajoTitulo1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #152d5e;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .bannerabajoTexto1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        color: #6f7379;
+    }
+
+    .bannerabajoTitulo2{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #081329;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .bannerabajoTexto1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        color: #989ea7;
+    }
+    .bannerabajocontenedor5{
+        display: flex;
+        flex-direction: column;
+        margin: 3%;
+    }
+    .button-banner-desactivado2{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #69788C;
+        padding: 5px 15px;
+        font-size: 20px;
+    }
+    .push-abajo{
+        margin: left;
+    }
+
+    .banner-abajo-adentro{
+        display: flex;
+    }
+
+
+    .bannerabajoTexto2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 10px;
+        color: #989ea7;
+        margin: 3%;
+    }
+.banner-abajo-legal{
+    display:flex;
+    justify-content: space-between;
+    margin: 3%;
+}
